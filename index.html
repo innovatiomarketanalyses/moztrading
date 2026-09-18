@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-<title>MZ CryptoHub — Compre USDT em Maputo</title>
-<meta name="description" content="Compre USDT em Maputo. Pague em Metical, receba USDT directamente na sua Trust Wallet. Atendimento directo, KYC obrigatório, negócio online e presencial.">
+<title>[Nome da Empresa] — Pagamentos a Fornecedores Internacionais</title>
+<meta name="description" content="Apoio a empresas em Moçambique no pagamento a fornecedores internacionais, com verificação da documentação e acompanhamento de cada operação.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -27,17 +27,20 @@ src="https://www.facebook.com/tr?id=1423093693102127&ev=PageView&noscript=1"
 <!-- End Meta Pixel Code -->
 <style>
   :root{
-    --bg:#f6faf8;
-    --bg-alt:#eef6f1;
+    --bg:#f7f8fa;
+    --bg-alt:#eef1f5;
     --panel:#ffffff;
-    --ink:#0b1712;
-    --muted:#57665f;
-    --green:#149063;
-    --green-dark:#0d6e4a;
-    --green-light:#e2f5ec;
-    --line: rgba(11,23,18,0.09);
+    --ink:#10192a;
+    --muted:#57626f;
+    --navy:#132540;
+    --navy-dark:#0b1728;
+    --navy-light:#e7ecf3;
+    --gold:#a9812f;
+    --gold-dark:#8a6a24;
+    --gold-light:#f5eedd;
+    --line: rgba(16,25,42,0.09);
     --radius: 18px;
-    --shadow: 0 24px 48px -28px rgba(9,40,28,.35);
+    --shadow: 0 24px 48px -28px rgba(11,23,40,.35);
     --wa:#25D366;
   }
   *{box-sizing:border-box;}
@@ -60,29 +63,12 @@ src="https://www.facebook.com/tr?id=1423093693102127&ev=PageView&noscript=1"
   img{display:block;max-width:100%;}
   a{color:inherit;text-decoration:none;}
   .wrap{max-width:1120px;margin:0 auto;padding:0 20px;}
-  section{padding:64px 0;}
-
-  /* ---------- trust strip (top) ---------- */
-  .topstrip{
-    background:var(--ink);
-    color:#cfe9dc;
-    font-size:12.5px;
-    letter-spacing:.02em;
-  }
-  .topstrip .wrap{
-    display:flex;justify-content:space-between;align-items:center;
-    padding-top:8px;padding-bottom:8px;
-    gap:12px;
-    flex-wrap:wrap;
-  }
-  .topstrip span{opacity:.9;}
-  .topstrip .dot{margin:0 6px;opacity:.5;}
-  @media (max-width:640px){ .topstrip{display:none;} }
+  section{padding:72px 0;}
 
   /* ---------- header ---------- */
   header{
     position:sticky;top:0;z-index:50;
-    background:rgba(246,250,248,0.9);
+    background:rgba(247,248,250,0.92);
     backdrop-filter:blur(10px);
     border-bottom:1px solid var(--line);
   }
@@ -90,13 +76,13 @@ src="https://www.facebook.com/tr?id=1423093693102127&ev=PageView&noscript=1"
     display:flex;align-items:center;justify-content:space-between;
     padding-top:14px;padding-bottom:14px;
   }
-  .brand{display:flex;align-items:center;gap:10px;font-family:'Space Grotesk';font-weight:700;font-size:19px;}
+  .brand{display:flex;align-items:center;gap:10px;font-family:'Space Grotesk';font-weight:700;font-size:18px;color:var(--navy);}
   .brand .mark{
     width:36px;height:36px;border-radius:10px;
-    background:linear-gradient(145deg,var(--green),var(--green-dark));
-    color:#fff;display:flex;align-items:center;justify-content:center;
-    font-size:14px;font-weight:700;letter-spacing:-0.02em;
-    box-shadow:0 8px 16px -8px rgba(13,110,74,.6);
+    background:linear-gradient(145deg,var(--navy),var(--navy-dark));
+    color:var(--gold-light);display:flex;align-items:center;justify-content:center;
+    font-size:15px;font-weight:700;
+    box-shadow:0 8px 16px -8px rgba(11,23,40,.5);
   }
   .btn{
     display:inline-flex;align-items:center;gap:9px;
@@ -113,210 +99,118 @@ src="https://www.facebook.com/tr?id=1423093693102127&ev=PageView&noscript=1"
   }
   .btn-primary svg{flex-shrink:0;}
   .btn-header{padding:11px 18px;font-size:14px;}
-  .btn-ghost{
-    background:transparent;color:var(--ink);
-    border:1.5px solid var(--line);
-  }
 
   /* ---------- hero ---------- */
   .hero{
-    position:relative;
-    overflow:hidden;
-    padding-top:56px;
-    padding-bottom:40px;
-    background:
-      radial-gradient(ellipse 900px 500px at 85% -10%, rgba(20,144,99,.12), transparent 60%),
-      linear-gradient(180deg,var(--bg) 0%, var(--bg-alt) 100%);
+    position:relative;overflow:hidden;
+    padding-top:56px;padding-bottom:56px;
+    background:linear-gradient(180deg,var(--bg) 0%, var(--bg-alt) 100%);
   }
   .hero .wrap{
-    display:grid;
-    grid-template-columns:1.05fr .95fr;
-    gap:48px;
-    align-items:center;
-  }
-  .skyline{
-    position:absolute;left:0;right:0;bottom:0;
-    height:120px;opacity:.55;pointer-events:none;
+    display:grid;grid-template-columns:1.05fr .95fr;
+    gap:48px;align-items:center;
   }
   .eyebrow{
     display:inline-flex;align-items:center;gap:8px;
-    background:var(--green-light);color:var(--green-dark);
+    background:var(--navy-light);color:var(--navy);
     padding:7px 14px;border-radius:999px;
-    font-size:13px;font-weight:600;
-    margin-bottom:18px;
+    font-size:13px;font-weight:600;margin-bottom:18px;
   }
-  .eyebrow .pulse{
-    width:7px;height:7px;border-radius:50%;background:var(--green);
-    box-shadow:0 0 0 0 rgba(20,144,99,.6);
-    animation:pulse 2s infinite;
-  }
-  @keyframes pulse{
-    0%{box-shadow:0 0 0 0 rgba(20,144,99,.55);}
-    70%{box-shadow:0 0 0 8px rgba(20,144,99,0);}
-    100%{box-shadow:0 0 0 0 rgba(20,144,99,0);}
-  }
-  .hero h1{
-    font-size:44px;
-    max-width:560px;
-  }
-  .hero h1 .accent{color:var(--green);}
-  .hero .sub{
-    margin-top:18px;color:var(--muted);font-size:16.5px;max-width:520px;
-  }
-  .rate-card{
-    margin-top:26px;
-    background:var(--panel);
-    border:1px solid var(--line);
-    border-radius:var(--radius);
-    padding:18px 20px;
-    box-shadow:var(--shadow);
-    max-width:420px;
-    display:flex;align-items:center;gap:16px;
-  }
-  .rate-card .t-icon{
-    width:46px;height:46px;border-radius:50%;
-    background:var(--green-light);color:var(--green-dark);
-    display:flex;align-items:center;justify-content:center;
-    font-weight:700;font-family:'Space Grotesk';font-size:18px;flex-shrink:0;
-  }
-  .rate-card .label{font-size:12.5px;color:var(--muted);font-weight:500;}
-  .rate-card .value{font-family:'Space Grotesk';font-weight:700;font-size:21px;margin-top:2px;}
-  .rate-note{font-size:12.5px;color:var(--muted);margin-top:10px;max-width:420px;}
-  .hero-cta{margin-top:26px;display:flex;align-items:center;gap:14px;flex-wrap:wrap;}
-  .hero-cta .microcopy{font-size:13px;color:var(--muted);}
-
-  /* ---------- phone mockup ---------- */
-  .phone-stage{display:flex;justify-content:center;position:relative;}
-  .phone{
-    width:280px;
-    background:#fff;
-    border-radius:34px;
-    border:8px solid #0b1712;
-    box-shadow:0 40px 70px -30px rgba(9,40,28,.45);
-    overflow:hidden;
-    position:relative;
-  }
-  .phone::before{
-    content:"";position:absolute;top:8px;left:50%;transform:translateX(-50%);
-    width:70px;height:18px;background:#0b1712;border-radius:12px;z-index:2;
-  }
-  .phone-screen{padding:34px 18px 20px;}
-  .ps-label{font-size:12px;color:var(--muted);}
-  .ps-balance{font-family:'Space Grotesk';font-weight:700;font-size:25px;margin-top:4px;display:flex;align-items:center;gap:8px;}
-  .ps-balance .t-badge{
-    width:22px;height:22px;border-radius:50%;background:var(--green);color:#fff;
-    display:inline-flex;align-items:center;justify-content:center;font-size:11px;font-weight:700;
-  }
-  .ps-fx{font-size:12.5px;color:var(--muted);margin-top:2px;}
-  .ps-actions{display:flex;justify-content:space-between;margin-top:20px;}
-  .ps-actions .act{display:flex;flex-direction:column;align-items:center;gap:6px;font-size:10.5px;color:var(--muted);}
-  .ps-actions .circ{
-    width:38px;height:38px;border-radius:50%;background:var(--green-light);color:var(--green-dark);
-    display:flex;align-items:center;justify-content:center;
-  }
-  .ps-list{margin-top:22px;border-top:1px solid var(--line);padding-top:14px;}
-  .ps-row{display:flex;justify-content:space-between;align-items:center;padding:9px 0;}
-  .ps-row .who{font-size:12.5px;font-weight:600;}
-  .ps-row .when{font-size:10.5px;color:var(--muted);}
-  .ps-row .amt{font-size:12.5px;font-weight:700;color:var(--green-dark);}
-  .float-badge{
-    position:absolute;background:#fff;border-radius:14px;box-shadow:var(--shadow);
-    padding:10px 14px;font-size:12px;font-weight:600;display:flex;align-items:center;gap:8px;
-  }
-  .float-badge.b1{top:10px;right:-18px;color:var(--green-dark);}
-  .float-badge svg{flex-shrink:0;}
+  .hero h1{font-size:42px;max-width:600px;}
+  .hero .sub{margin-top:18px;color:var(--muted);font-size:17px;max-width:540px;line-height:1.7;}
+  .hero-cta{margin-top:30px;}
+  .hero-note{margin-top:14px;font-size:14px;color:var(--muted);max-width:480px;}
+  .hero-visual{position:relative;border-radius:24px;overflow:hidden;box-shadow:var(--shadow);}
+  .hero-visual img{width:100%;height:100%;object-fit:cover;aspect-ratio:4/5;}
   @media (max-width:900px){
-    .hero .wrap{grid-template-columns:1fr;gap:36px;}
-    .hero h1{font-size:34px;}
-    .phone-stage{order:-1;}
-    .phone{width:230px;}
-  }
-
-  /* ---------- trust icons row ---------- */
-  .trustrow{background:var(--panel);border-top:1px solid var(--line);border-bottom:1px solid var(--line);}
-  .trustrow .wrap{
-    display:grid;grid-template-columns:repeat(4,1fr);gap:20px;
-    padding-top:26px;padding-bottom:26px;
-  }
-  .trust-item{display:flex;flex-direction:column;align-items:center;text-align:center;gap:8px;}
-  .trust-item .ic{
-    width:44px;height:44px;border-radius:12px;background:var(--green-light);color:var(--green-dark);
-    display:flex;align-items:center;justify-content:center;
-  }
-  .trust-item .lbl{font-size:13px;font-weight:600;}
-  @media (max-width:640px){
-    .trustrow .wrap{grid-template-columns:repeat(2,1fr);}
+    .hero .wrap{grid-template-columns:1fr;gap:32px;}
+    .hero h1{font-size:32px;}
+    .hero-visual{order:-1;max-height:340px;}
+    .hero-visual img{aspect-ratio:16/10;}
   }
 
   /* ---------- section heading ---------- */
-  .sec-head{max-width:620px;margin:0 auto 42px;text-align:center;}
+  .sec-head{max-width:680px;margin:0 auto 44px;text-align:center;}
   .sec-head .kicker{
-    color:var(--green-dark);font-weight:700;font-size:13px;letter-spacing:.06em;
+    color:var(--gold-dark);font-weight:700;font-size:13px;letter-spacing:.06em;
     text-transform:uppercase;margin-bottom:10px;display:block;
   }
   .sec-head h2{font-size:30px;}
   .sec-head .d{color:var(--muted);margin-top:12px;font-size:15.5px;}
 
-  /* ---------- steps ---------- */
-  .steps{display:grid;grid-template-columns:repeat(4,1fr);gap:20px;}
-  .step-card{
+  /* ---------- problem cards ---------- */
+  .problem-cards{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;}
+  .p-card{
     background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);
-    padding:26px 20px;position:relative;
+    padding:30px 26px;
   }
-  .step-card .num{
-    font-family:'Space Grotesk';font-weight:700;font-size:13px;color:var(--green-dark);
-    background:var(--green-light);width:30px;height:30px;border-radius:9px;
-    display:flex;align-items:center;justify-content:center;margin-bottom:16px;
-  }
-  .step-card h3{font-size:16.5px;margin-bottom:8px;}
-  .step-card p{font-size:14px;color:var(--muted);}
-  @media (max-width:900px){ .steps{grid-template-columns:repeat(2,1fr);} }
-  @media (max-width:560px){ .steps{grid-template-columns:1fr;} }
+  .p-card .ico{font-size:30px;margin-bottom:16px;}
+  .p-card h3{font-size:18px;margin-bottom:8px;}
+  .p-card p{font-size:14.5px;color:var(--muted);}
+  @media (max-width:900px){ .problem-cards{grid-template-columns:1fr;} }
 
-  /* ---------- why / KYC ---------- */
-  .why{background:var(--bg-alt);}
-  .why .grid{display:grid;grid-template-columns:1fr 1fr;gap:48px;align-items:center;}
-  .why-list{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:18px;}
-  .why-list li{display:flex;gap:14px;align-items:flex-start;}
-  .why-list .ic{
-    width:36px;height:36px;border-radius:10px;background:var(--panel);color:var(--green-dark);
-    display:flex;align-items:center;justify-content:center;flex-shrink:0;box-shadow:0 6px 14px -8px rgba(9,40,28,.25);
+  /* ---------- process ---------- */
+  .process{background:var(--navy);color:#fff;}
+  .process .sec-head h2{color:#fff;}
+  .process .sec-head .kicker{color:#d9b96a;}
+  .process .sec-head .d{color:#aab6c8;}
+  .steps4{display:grid;grid-template-columns:repeat(4,1fr);gap:20px;}
+  .step4-card{
+    background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.12);border-radius:var(--radius);
+    padding:28px 22px;position:relative;
   }
-  .why-list .txt strong{display:block;font-size:15.5px;margin-bottom:3px;}
-  .why-list .txt span{font-size:14px;color:var(--muted);}
-  .why-visual{
-    background:var(--panel);border:1px solid var(--line);border-radius:24px;padding:32px;
-    box-shadow:var(--shadow);
+  .step4-card .num{
+    font-family:'Space Grotesk';font-weight:700;font-size:14px;color:var(--gold-light);
+    background:rgba(255,255,255,.1);width:auto;padding:5px 12px;border-radius:8px;
+    display:inline-block;margin-bottom:18px;letter-spacing:.04em;
   }
-  .kyc-doc{
-    border:2px dashed var(--line);border-radius:16px;padding:24px;text-align:center;color:var(--muted);
-  }
-  .kyc-doc .ic{
-    width:52px;height:52px;border-radius:50%;background:var(--green-light);color:var(--green-dark);
-    display:flex;align-items:center;justify-content:center;margin:0 auto 14px;
-  }
-  .kyc-doc strong{display:block;color:var(--ink);font-size:15px;margin-bottom:6px;}
-  .kyc-doc p{font-size:13.5px;}
-  @media (max-width:900px){ .why .grid{grid-template-columns:1fr;} .why-visual{order:-1;} }
+  .step4-card h3{font-size:16.5px;margin-bottom:8px;color:#fff;}
+  .step4-card p{font-size:14px;color:#c3ccd9;}
+  @media (max-width:900px){ .steps4{grid-template-columns:repeat(2,1fr);} }
+  @media (max-width:560px){ .steps4{grid-template-columns:1fr;} }
 
-  /* ---------- testimonials ---------- */
-  .testi-grid{
-    display:grid;grid-template-columns:repeat(3,1fr);gap:22px;
+  /* ---------- who it's for ---------- */
+  .who-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;margin-bottom:40px;}
+  .who-card{
+    background:var(--panel);border:1px solid var(--line);border-radius:16px;
+    padding:24px 18px;text-align:center;font-weight:700;font-size:15.5px;
+    display:flex;align-items:center;justify-content:center;min-height:88px;
   }
-  .testi-card{
-    background:var(--panel);border:1px solid var(--line);border-radius:20px;overflow:hidden;
-    box-shadow:0 18px 34px -24px rgba(9,40,28,.3);
+  @media (max-width:900px){ .who-grid{grid-template-columns:repeat(2,1fr);} }
+  .who-cta{
+    background:var(--gold-light);border-radius:var(--radius);padding:32px;text-align:center;
   }
-  .testi-card img{width:100%;display:block;}
-  .testi-cap{
-    padding:14px 16px;display:flex;align-items:center;gap:8px;font-size:12.5px;color:var(--muted);
+  .who-cta h3{font-size:19px;margin-bottom:10px;}
+  .who-cta p{color:var(--muted);font-size:15px;margin-bottom:20px;}
+
+  /* ---------- documentation ---------- */
+  .doc-section{background:var(--bg-alt);}
+  .doc-grid{display:grid;grid-template-columns:1fr 1fr;gap:48px;align-items:center;}
+  .doc-list{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:14px;}
+  .doc-list li{display:flex;gap:12px;align-items:flex-start;font-size:15.5px;}
+  .doc-list .chk{
+    width:22px;height:22px;border-radius:50%;background:var(--navy);color:#fff;
+    display:flex;align-items:center;justify-content:center;flex-shrink:0;margin-top:1px;
   }
-  .testi-cap .chk{
-    width:16px;height:16px;border-radius:50%;background:var(--green);color:#fff;
-    display:flex;align-items:center;justify-content:center;flex-shrink:0;
+  .doc-visual{border-radius:22px;overflow:hidden;box-shadow:var(--shadow);}
+  .doc-visual img{width:100%;object-fit:cover;aspect-ratio:4/5;}
+  @media (max-width:900px){ .doc-grid{grid-template-columns:1fr;} .doc-visual{order:-1;max-height:280px;} .doc-visual img{aspect-ratio:16/9;} }
+
+  /* ---------- trust / company ---------- */
+  .trust-card{
+    background:var(--panel);border:1px solid var(--line);border-radius:24px;
+    padding:44px 40px;box-shadow:var(--shadow);
   }
-  @media (max-width:900px){ .testi-grid{grid-template-columns:repeat(2,1fr);} }
-  @media (max-width:640px){ .testi-grid{grid-template-columns:1fr;max-width:420px;margin:0 auto;} }
+  .trust-card .tname{font-family:'Space Grotesk';font-weight:700;font-size:24px;}
+  .trust-card .ttag{color:var(--muted);margin-top:6px;font-size:15px;}
+  .trust-grid{margin-top:30px;display:grid;grid-template-columns:repeat(2,1fr);gap:18px 32px;border-top:1px solid var(--line);padding-top:28px;}
+  .trust-row{display:flex;flex-direction:column;gap:4px;font-size:14.5px;}
+  .trust-row .lbl{color:var(--muted);font-size:12.5px;text-transform:uppercase;letter-spacing:.04em;}
+  .trust-row .val{font-weight:600;}
+  .trust-row .val.pending{color:var(--muted);font-style:italic;font-weight:400;}
+  .trust-links{margin-top:24px;display:flex;gap:20px;flex-wrap:wrap;font-size:14px;}
+  .trust-links a{color:var(--navy);font-weight:600;text-decoration:underline;text-underline-offset:3px;}
+  @media (max-width:640px){ .trust-grid{grid-template-columns:1fr;} .trust-card{padding:32px 24px;} }
 
   /* ---------- FAQ ---------- */
   .faq{max-width:760px;margin:0 auto;}
@@ -329,22 +223,20 @@ src="https://www.facebook.com/tr?id=1423093693102127&ev=PageView&noscript=1"
     display:flex;justify-content:space-between;align-items:center;gap:12px;
   }
   summary::-webkit-details-marker{display:none;}
-  summary .chev{transition:transform .2s ease;flex-shrink:0;color:var(--green-dark);}
+  summary .chev{transition:transform .2s ease;flex-shrink:0;color:var(--gold-dark);}
   details[open] summary .chev{transform:rotate(180deg);}
   details p{margin-top:12px;color:var(--muted);font-size:14.5px;}
 
   /* ---------- final CTA ---------- */
   .final-cta{
-    background:linear-gradient(135deg,var(--green-dark),#0a5a3d);
+    background:linear-gradient(135deg,var(--navy),var(--navy-dark));
     color:#fff;border-radius:28px;
-    padding:52px 32px;text-align:center;
-    margin:0 20px;
-    box-shadow:0 30px 60px -30px rgba(9,40,28,.5);
+    padding:52px 32px;text-align:center;margin:0 20px;
+    box-shadow:0 30px 60px -30px rgba(11,23,40,.5);
   }
   .final-cta h2{font-size:28px;color:#fff;}
   .final-cta p{color:rgba(255,255,255,.85);margin-top:12px;max-width:480px;margin-left:auto;margin-right:auto;}
-  .final-cta .btn-primary{margin-top:24px;background:#fff;color:var(--green-dark);box-shadow:0 14px 28px -12px rgba(0,0,0,.35);}
-  .final-cta .btn-primary svg path{fill:var(--green-dark);}
+  .final-cta .btn-primary{margin-top:24px;}
 
   /* ---------- footer ---------- */
   footer{padding:44px 0 110px;color:var(--muted);font-size:13px;}
@@ -367,9 +259,7 @@ src="https://www.facebook.com/tr?id=1423093693102127&ev=PageView&noscript=1"
   @media (max-width:640px){ .fab{display:none;} }
 
   /* ---------- sticky mobile bar ---------- */
-  .mobile-bar{
-    display:none;
-  }
+  .mobile-bar{display:none;}
   @media (max-width:640px){
     .mobile-bar{
       display:flex;position:fixed;left:0;right:0;bottom:0;z-index:60;
@@ -379,221 +269,197 @@ src="https://www.facebook.com/tr?id=1423093693102127&ev=PageView&noscript=1"
     }
     .mobile-bar .btn-primary{width:100%;justify-content:center;}
     body{padding-bottom:78px;}
-    section{padding:44px 0;}
+    section{padding:48px 0;}
     .sec-head{margin-bottom:28px;}
-    .why-visual{padding:24px;}
   }
 </style>
 </head>
 <body>
 
-<div class="topstrip">
-  <div class="wrap">
-    <span>Maputo <span class="dot">&middot;</span> Pessoas reais <span class="dot">&middot;</span> Soluções reais</span>
-    <span>Rápido <span class="dot">&middot;</span> Seguro <span class="dot">&middot;</span> Simples <span class="dot">&middot;</span> Local</span>
-  </div>
-</div>
-
 <header>
   <div class="wrap">
-    <div class="brand"><span class="mark">₮</span> MZ CryptoHub</div>
+    <div class="brand"><span class="mark">MZ</span> [Nome da Empresa]</div>
     <a class="btn btn-primary btn-header" href="https://wa.me/message/GKGANDMQPKHEF1" target="_blank" rel="noopener">
       <svg width="17" height="17" viewBox="0 0 24 24" fill="#fff"><path d="M12 2C6.48 2 2 6.48 2 12c0 1.85.5 3.58 1.36 5.07L2 22l5.06-1.33A9.94 9.94 0 0 0 12 22c5.52 0 10-4.48 10-10S17.52 2 12 2zm0 18c-1.6 0-3.1-.44-4.38-1.2l-.31-.19-3 .79.8-2.92-.2-.3A7.94 7.94 0 0 1 4 12c0-4.41 3.59-8 8-8s8 3.59 8 8-3.59 8-8 8zm4.4-5.6c-.24-.12-1.42-.7-1.64-.78-.22-.08-.38-.12-.54.12-.16.24-.62.78-.76.94-.14.16-.28.18-.52.06-.24-.12-1.02-.38-1.94-1.2-.72-.64-1.2-1.44-1.34-1.68-.14-.24-.02-.37.1-.49.11-.11.24-.28.36-.42.12-.14.16-.24.24-.4.08-.16.04-.3-.02-.42-.06-.12-.54-1.3-.74-1.78-.2-.47-.4-.4-.54-.41h-.46c-.16 0-.42.06-.64.3-.22.24-.84.82-.84 2s.86 2.32.98 2.48c.12.16 1.7 2.6 4.12 3.64.58.25 1.03.4 1.38.51.58.18 1.11.16 1.53.1.47-.07 1.42-.58 1.62-1.14.2-.56.2-1.04.14-1.14-.06-.1-.22-.16-.46-.28z"/></svg>
-      WhatsApp
+      Falar com um especialista
     </a>
   </div>
 </header>
 
+<!-- 1. HERO -->
 <section class="hero">
   <div class="wrap">
     <div>
-      <span class="eyebrow"><span class="pulse"></span> Serviço P2P local em Maputo</span>
-      <h1>Compre <span class="accent">USDT</span> com confiança, sem complicações.</h1>
-      <p class="sub">Pague em Metical, receba USDT directamente na sua Trust Wallet. Atendimento sempre com uma pessoa real, verificação KYC obrigatória, negócio presencial em Maputo ou online.</p>
-
-      <div class="rate-card">
-        <div class="t-icon">₮</div>
-        <div>
-          <div class="label">Cotação de hoje</div>
-          <div class="value">1 USDT = 70 MT</div>
-        </div>
-      </div>
-      <p class="rate-note">A cotação é actualizada diariamente consoante o mercado. Confirme sempre o valor no WhatsApp antes de enviar qualquer pagamento.</p>
-
-      <div class="hero-cta">
+      <span class="eyebrow reveal">Pagamentos a fornecedores internacionais</span>
+      <h1 class="reveal">Facilitamos pagamentos a fornecedores internacionais para empresas em Moçambique.</h1>
+      <p class="sub reveal">Apoio no processo de pagamento de compras internacionais, com verificação da documentação e acompanhamento de cada operação.</p>
+      <div class="hero-cta reveal">
         <a class="btn btn-primary" href="https://wa.me/message/GKGANDMQPKHEF1" target="_blank" rel="noopener">
           <svg width="19" height="19" viewBox="0 0 24 24" fill="#fff"><path d="M12 2C6.48 2 2 6.48 2 12c0 1.85.5 3.58 1.36 5.07L2 22l5.06-1.33A9.94 9.94 0 0 0 12 22c5.52 0 10-4.48 10-10S17.52 2 12 2zm0 18c-1.6 0-3.1-.44-4.38-1.2l-.31-.19-3 .79.8-2.92-.2-.3A7.94 7.94 0 0 1 4 12c0-4.41 3.59-8 8-8s8 3.59 8 8-3.59 8-8 8zm4.4-5.6c-.24-.12-1.42-.7-1.64-.78-.22-.08-.38-.12-.54.12-.16.24-.62.78-.76.94-.14.16-.28.18-.52.06-.24-.12-1.02-.38-1.94-1.2-.72-.64-1.2-1.44-1.34-1.68-.14-.24-.02-.37.1-.49.11-.11.24-.28.36-.42.12-.14.16-.24.24-.4.08-.16.04-.3-.02-.42-.06-.12-.54-1.3-.74-1.78-.2-.47-.4-.4-.54-.41h-.46c-.16 0-.42.06-.64.3-.22.24-.84.82-.84 2s.86 2.32.98 2.48c.12.16 1.7 2.6 4.12 3.64.58.25 1.03.4 1.38.51.58.18 1.11.16 1.53.1.47-.07 1.42-.58 1.62-1.14.2-.56.2-1.04.14-1.14-.06-.1-.22-.16-.46-.28z"/></svg>
-          Consultar cotação no WhatsApp
+          Falar com um especialista
         </a>
-        <span class="microcopy">Resposta directa, sem bots.</span>
       </div>
+      <p class="hero-note reveal">Para empresas, importadores e comerciantes com documentação comercial válida.</p>
     </div>
-
-    <div class="phone-stage">
-      <div class="phone">
-        <div class="phone-screen">
-          <div class="ps-label">Saldo da carteira</div>
-          <div class="ps-balance"><span class="t-badge">₮</span> 1.250,00 USDT</div>
-          <div class="ps-fx">≈ 87.500,00 MT</div>
-          <div class="ps-actions">
-            <div class="act"><span class="circ">
-              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
-            </span>Enviar</div>
-            <div class="act"><span class="circ">
-              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5v14M5 12l7 7 7-7"/></svg>
-            </span>Receber</div>
-            <div class="act"><span class="circ">
-              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/></svg>
-            </span>Comprar</div>
-            <div class="act"><span class="circ">
-              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 1l4 4-4 4M3 11V9a4 4 0 0 1 4-4h14M7 23l-4-4 4-4M21 13v2a4 4 0 0 1-4 4H3"/></svg>
-            </span>Trocar</div>
-          </div>
-          <div class="ps-list">
-            <div class="ps-row"><div><div class="who">Recebido</div><div class="when">Hoje, 14:32</div></div><div class="amt">+500 USDT</div></div>
-            <div class="ps-row"><div><div class="who">Recebido</div><div class="when">Ontem, 18:07</div></div><div class="amt">+750 USDT</div></div>
-          </div>
-        </div>
-      </div>
-      <div class="float-badge b1">
-        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#149063" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
-        KYC verificado
-      </div>
+    <div class="hero-visual reveal">
+      <img src="images/hero-office.png" alt="Profissional a analisar documentação comercial num escritório" loading="lazy">
     </div>
   </div>
 </section>
 
-<div class="trustrow">
-  <div class="wrap">
-    <div class="trust-item">
-      <span class="ic"><svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg></span>
-      <span class="lbl">Rápido</span>
-    </div>
-    <div class="trust-item">
-      <span class="ic"><svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2l8 3v6c0 5-3.4 8.7-8 11-4.6-2.3-8-6-8-11V5l8-3z"/></svg></span>
-      <span class="lbl">Seguro</span>
-    </div>
-    <div class="trust-item">
-      <span class="ic"><svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg></span>
-      <span class="lbl">Simples</span>
-    </div>
-    <div class="trust-item">
-      <span class="ic"><svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg></span>
-      <span class="lbl">Maputo, local</span>
-    </div>
-  </div>
-</div>
-
-<section id="como-funciona">
+<!-- 2. PROBLEM -->
+<section id="problema">
   <div class="wrap">
     <div class="sec-head reveal">
-      <span class="kicker">Como funciona</span>
-      <h2>Do primeiro contacto ao USDT na sua carteira</h2>
-      <p class="d">Um processo simples, transparente e directo, pensado para revendedores e clientes que compram com regularidade.</p>
+      <h2>Comprar no exterior não precisa de ser complicado.</h2>
     </div>
-    <div class="steps">
-      <div class="step-card reveal"><div class="num">1</div><h3>Contacto</h3><p>Fala connosco no WhatsApp e diz-nos quantos USDT precisas.</p></div>
-      <div class="step-card reveal"><div class="num">2</div><h3>Verificação KYC</h3><p>Envias uma foto do teu documento de identificação. Passo obrigatório, para tua segurança.</p></div>
-      <div class="step-card reveal"><div class="num">3</div><h3>Pagamento em MT</h3><p>Pagas em Metical, presencialmente em Maputo ou por transferência / mobile money.</p></div>
-      <div class="step-card reveal"><div class="num">4</div><h3>Recebes o USDT</h3><p>Confirmamos o envio e o USDT cai directamente na tua Trust Wallet.</p></div>
+    <div class="problem-cards">
+      <div class="p-card reveal">
+        <div class="ico">🌍</div>
+        <h3>Fornecedores internacionais</h3>
+        <p>Trabalhe com fornecedores em diferentes mercados.</p>
+      </div>
+      <div class="p-card reveal">
+        <div class="ico">📄</div>
+        <h3>Documentação</h3>
+        <p>Organize a documentação necessária para a operação.</p>
+      </div>
+      <div class="p-card reveal">
+        <div class="ico">🤝</div>
+        <h3>Acompanhamento</h3>
+        <p>Tenha apoio durante o processo de pagamento.</p>
+      </div>
     </div>
   </div>
 </section>
 
-<section class="why">
+<!-- 3. PROCESS -->
+<section class="process" id="como-funciona">
   <div class="wrap">
-    <div class="grid">
+    <div class="sec-head reveal">
+      <span class="kicker">Processo</span>
+      <h2>Como funciona</h2>
+    </div>
+    <div class="steps4">
+      <div class="step4-card reveal">
+        <div class="num">01</div>
+        <h3>Envie os documentos</h3>
+        <p>Apresente a factura comercial, dados do fornecedor e documentação relacionada.</p>
+      </div>
+      <div class="step4-card reveal">
+        <div class="num">02</div>
+        <h3>Verificação</h3>
+        <p>Analisamos os dados da operação e a documentação fornecida.</p>
+      </div>
+      <div class="step4-card reveal">
+        <div class="num">03</div>
+        <h3>Processamento</h3>
+        <p>Após a aprovação, seguimos o processo de pagamento aplicável.</p>
+      </div>
+      <div class="step4-card reveal">
+        <div class="num">04</div>
+        <h3>Confirmação</h3>
+        <p>Acompanhamos a operação até à confirmação junto do fornecedor.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 4. WHO IT'S FOR -->
+<section id="para-quem">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <h2>Para quem fazemos sentido?</h2>
+    </div>
+    <div class="who-grid">
+      <div class="who-card reveal">Importadores</div>
+      <div class="who-card reveal">Distribuidores</div>
+      <div class="who-card reveal">Comerciantes</div>
+      <div class="who-card reveal">Empresas que compram mercadoria no exterior</div>
+    </div>
+    <div class="who-cta reveal">
+      <h3>Tem uma compra internacional em curso?</h3>
+      <p>Fale connosco para verificar se podemos apoiar a sua operação.</p>
+      <a class="btn btn-primary" href="https://wa.me/message/GKGANDMQPKHEF1" target="_blank" rel="noopener">
+        <svg width="19" height="19" viewBox="0 0 24 24" fill="#fff"><path d="M12 2C6.48 2 2 6.48 2 12c0 1.85.5 3.58 1.36 5.07L2 22l5.06-1.33A9.94 9.94 0 0 0 12 22c5.52 0 10-4.48 10-10S17.52 2 12 2zm0 18c-1.6 0-3.1-.44-4.38-1.2l-.31-.19-3 .79.8-2.92-.2-.3A7.94 7.94 0 0 1 4 12c0-4.41 3.59-8 8-8s8 3.59 8 8-3.59 8-8 8zm4.4-5.6c-.24-.12-1.42-.7-1.64-.78-.22-.08-.38-.12-.54.12-.16.24-.62.78-.76.94-.14.16-.28.18-.52.06-.24-.12-1.02-.38-1.94-1.2-.72-.64-1.2-1.44-1.34-1.68-.14-.24-.02-.37.1-.49.11-.11.24-.28.36-.42.12-.14.16-.24.24-.4.08-.16.04-.3-.02-.42-.06-.12-.54-1.3-.74-1.78-.2-.47-.4-.4-.54-.41h-.46c-.16 0-.42.06-.64.3-.22.24-.84.82-.84 2s.86 2.32.98 2.48c.12.16 1.7 2.6 4.12 3.64.58.25 1.03.4 1.38.51.58.18 1.11.16 1.53.1.47-.07 1.42-.58 1.62-1.14.2-.56.2-1.04.14-1.14-.06-.1-.22-.16-.46-.28z"/></svg>
+        Falar com um especialista
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- 5. DOCUMENTATION -->
+<section class="doc-section" id="documentacao">
+  <div class="wrap">
+    <div class="doc-grid">
       <div>
-        <span class="kicker reveal">Segurança em primeiro lugar</span>
-        <h2 class="reveal" style="font-size:28px;margin-bottom:20px;">Porque exigimos verificação KYC</h2>
-        <ul class="why-list">
-          <li class="reveal">
-            <span class="ic"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="16" rx="2"/><circle cx="9" cy="10" r="2"/><path d="M15 8h3M15 12h3M6 16h12"/></svg></span>
-            <div class="txt"><strong>Documento obrigatório em toda transacção</strong><span>Uma foto do BI ou passaporte confirma quem está do outro lado, protegendo comprador e vendedor.</span></div>
-          </li>
-          <li class="reveal">
-            <span class="ic"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4 4-7 8-7s8 3 8 7"/></svg></span>
-            <div class="txt"><strong>Atendimento sempre por uma pessoa real</strong><span>Sem bots automáticos. Falas directamente com quem processa a tua transacção.</span></div>
-          </li>
-          <li class="reveal">
-            <span class="ic"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg></span>
-            <div class="txt"><strong>Opção presencial em Maputo</strong><span>Se preferires mais tranquilidade, podemos combinar um encontro presencial.</span></div>
-          </li>
-          <li class="reveal">
-            <span class="ic"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg></span>
-            <div class="txt"><strong>Histórico real de transacções</strong><span>Vê abaixo conversas reais de clientes que já receberam o seu USDT.</span></div>
-          </li>
+        <span class="kicker reveal" style="color:var(--gold-dark);font-weight:700;font-size:13px;letter-spacing:.06em;text-transform:uppercase;margin-bottom:10px;display:block;">Transparência</span>
+        <h2 class="reveal" style="font-size:28px;margin-bottom:20px;">Trabalhamos com operações documentadas</h2>
+        <ul class="doc-list">
+          <li class="reveal"><span class="chk"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg></span> Factura comercial</li>
+          <li class="reveal"><span class="chk"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg></span> Dados do fornecedor</li>
+          <li class="reveal"><span class="chk"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg></span> Ordem de compra</li>
+          <li class="reveal"><span class="chk"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg></span> Documentação da mercadoria</li>
+          <li class="reveal"><span class="chk"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg></span> Dados da empresa/comprador</li>
+          <li class="reveal"><span class="chk"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg></span> Informação necessária para análise da operação</li>
         </ul>
       </div>
-      <div class="why-visual reveal">
-        <div class="kyc-doc">
-          <div class="ic"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="16" rx="2"/><circle cx="9" cy="10" r="2"/><path d="M15 8h3M15 12h3M6 16h12"/></svg></div>
-          <strong>Foto do documento de identificação</strong>
-          <p>Pedida uma única vez por cliente. Usada apenas para verificação, nunca partilhada com terceiros.</p>
-        </div>
+      <div class="doc-visual reveal">
+        <img src="images/documents-detail.png" alt="Documentação comercial a ser organizada num escritório" loading="lazy">
       </div>
     </div>
   </div>
 </section>
 
-<section id="testemunhos">
+<!-- 6. TRUST / COMPANY INFO -->
+<section id="empresa">
   <div class="wrap">
-    <div class="sec-head reveal">
-      <span class="kicker">Clientes reais</span>
-      <h2>O que dizem quem já comprou connosco</h2>
-      <p class="d">Conversas reais do WhatsApp, sem edição, de clientes em Maputo, Matola e Beira.</p>
-    </div>
-    <div class="testi-grid">
-      <div class="testi-card reveal">
-        <img src="testimonials/testimonial-luis-maputo.jpg" alt="Conversa de WhatsApp com cliente comerciante em Maputo confirmando recebimento de USDT" loading="lazy">
-        <div class="testi-cap"><span class="chk"><svg width="9" height="9" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg></span> Cliente, Maputo</div>
+    <div class="trust-card reveal">
+      <div class="tname">[Nome da Empresa]</div>
+      <div class="ttag">Soluções para comércio e pagamentos internacionais.</div>
+      <div class="trust-grid">
+        <div class="trust-row"><span class="lbl">Nome legal</span><span class="val pending">A confirmar</span></div>
+        <div class="trust-row"><span class="lbl">Registo</span><span class="val pending">A confirmar</span></div>
+        <div class="trust-row"><span class="lbl">Morada</span><span class="val pending">A confirmar</span></div>
+        <div class="trust-row"><span class="lbl">Telefone</span><span class="val pending">A confirmar</span></div>
+        <div class="trust-row"><span class="lbl">Email</span><span class="val pending">A confirmar</span></div>
+        <div class="trust-row"><span class="lbl">Licenciamento aplicável</span><span class="val pending">A confirmar</span></div>
       </div>
-      <div class="testi-card reveal">
-        <img src="testimonials/testimonial-rogerio-matola.jpg" alt="Conversa de WhatsApp com cliente em Matola confirmando recebimento de USDT" loading="lazy">
-        <div class="testi-cap"><span class="chk"><svg width="9" height="9" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg></span> Cliente, Matola</div>
-      </div>
-      <div class="testi-card reveal">
-        <img src="testimonials/testimonial-felix-beira.jpg" alt="Conversa de WhatsApp com cliente em Beira confirmando recebimento de USDT" loading="lazy">
-        <div class="testi-cap"><span class="chk"><svg width="9" height="9" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg></span> Cliente, Beira</div>
-      </div>
-      <div class="testi-card reveal">
-        <img src="testimonials/testimonial-luisa-china.jpg" alt="Conversa de WhatsApp com cliente confirmando recebimento de USDT" loading="lazy">
-        <div class="testi-cap"><span class="chk"><svg width="9" height="9" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg></span> Cliente verificado</div>
-      </div>
-      <div class="testi-card reveal">
-        <img src="testimonials/testimonial-mauro-arbitragusta.jpg" alt="Conversa de WhatsApp confirmando pagamento e envio de USDT para Trust Wallet" loading="lazy">
-        <div class="testi-cap"><span class="chk"><svg width="9" height="9" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg></span> Cliente recorrente</div>
+      <div class="trust-links">
+        <a href="#">Termos e condições</a>
+        <a href="#">Política de privacidade</a>
       </div>
     </div>
   </div>
 </section>
 
+<!-- 7. FAQ -->
 <section id="faq">
   <div class="wrap">
     <div class="sec-head reveal">
       <span class="kicker">Perguntas frequentes</span>
-      <h2>Tudo o que precisas de saber</h2>
+      <h2>Tudo o que precisa de saber</h2>
     </div>
     <div class="faq">
       <details class="reveal">
-        <summary>Preciso de ter Trust Wallet? <span class="chev"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg></span></summary>
-        <p>Trust Wallet é a carteira que recomendamos por ser simples de usar e amplamente aceite. Ainda assim, também recebemos em outras carteiras compatíveis com USDT (rede TRC20 ou BEP20). Confirma sempre a rede correcta antes de enviarmos.</p>
+        <summary>Que documentos preciso apresentar? <span class="chev"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg></span></summary>
+        <p>A documentação depende da natureza e do valor da operação. A nossa equipa informa quais documentos são necessários para a análise.</p>
       </details>
       <details class="reveal">
-        <summary>Como funciona a verificação KYC? <span class="chev"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg></span></summary>
-        <p>Pedimos uma foto legível do teu documento de identificação (BI, passaporte ou carta de condução). É um passo único, obrigatório para todas as transacções, que nos ajuda a evitar fraude e a proteger ambas as partes.</p>
+        <summary>Trabalham com fornecedores de que países? <span class="chev"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg></span></summary>
+        <p>[A confirmar — lista dos países genuinamente suportados.]</p>
       </details>
       <details class="reveal">
-        <summary>Posso comprar presencialmente em Maputo? <span class="chev"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg></span></summary>
-        <p>Sim. Se preferires mais confiança na primeira transacção, podemos combinar um encontro presencial em Maputo. Depois disso, a maioria dos clientes prefere continuar online pela rapidez.</p>
+        <summary>Atendem empresas ou particulares? <span class="chev"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg></span></summary>
+        <p>[A confirmar — resposta verdadeira sobre empresas e/ou particulares.]</p>
       </details>
       <details class="reveal">
-        <summary>Quanto tempo demora a transacção? <span class="chev"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg></span></summary>
-        <p>Depois de confirmado o pagamento em MT, o envio do USDT é feito em poucos minutos. Compras de maior volume podem ser processadas em fases, sempre com confirmação em cada etapa.</p>
+        <summary>Existem taxas? <span class="chev"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg></span></summary>
+        <p>Sim. As taxas aplicáveis são apresentadas antes da confirmação da operação.</p>
       </details>
       <details class="reveal">
-        <summary>A cotação muda todos os dias? <span class="chev"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg></span></summary>
-        <p>Sim, a cotação acompanha o mercado e pode ser ajustada diariamente. Envia-nos sempre uma mensagem antes de transferir para confirmarmos o valor exacto do dia.</p>
+        <summary>Quanto tempo demora? <span class="chev"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg></span></summary>
+        <p>O prazo depende da operação, documentação e dos prestadores envolvidos. Não garantimos um prazo até os detalhes serem analisados.</p>
       </details>
     </div>
   </div>
@@ -601,20 +467,20 @@ src="https://www.facebook.com/tr?id=1423093693102127&ev=PageView&noscript=1"
 
 <section>
   <div class="final-cta reveal">
-    <h2>Pronto para comprar USDT hoje?</h2>
-    <p>Fala connosco agora no WhatsApp e recebe a cotação actualizada, sem compromisso.</p>
+    <h2>Tem uma operação internacional para tratar?</h2>
+    <p>Fale com um especialista e verifique se podemos apoiar a sua operação.</p>
     <a class="btn btn-primary" href="https://wa.me/message/GKGANDMQPKHEF1" target="_blank" rel="noopener">
-      <svg width="19" height="19" viewBox="0 0 24 24" fill="#0d6e4a"><path d="M12 2C6.48 2 2 6.48 2 12c0 1.85.5 3.58 1.36 5.07L2 22l5.06-1.33A9.94 9.94 0 0 0 12 22c5.52 0 10-4.48 10-10S17.52 2 12 2zm0 18c-1.6 0-3.1-.44-4.38-1.2l-.31-.19-3 .79.8-2.92-.2-.3A7.94 7.94 0 0 1 4 12c0-4.41 3.59-8 8-8s8 3.59 8 8-3.59 8-8 8zm4.4-5.6c-.24-.12-1.42-.7-1.64-.78-.22-.08-.38-.12-.54.12-.16.24-.62.78-.76.94-.14.16-.28.18-.52.06-.24-.12-1.02-.38-1.94-1.2-.72-.64-1.2-1.44-1.34-1.68-.14-.24-.02-.37.1-.49.11-.11.24-.28.36-.42.12-.14.16-.24.24-.4.08-.16.04-.3-.02-.42-.06-.12-.54-1.3-.74-1.78-.2-.47-.4-.4-.54-.41h-.46c-.16 0-.42.06-.64.3-.22.24-.84.82-.84 2s.86 2.32.98 2.48c.12.16 1.7 2.6 4.12 3.64.58.25 1.03.4 1.38.51.58.18 1.11.16 1.53.1.47-.07 1.42-.58 1.62-1.14.2-.56.2-1.04.14-1.14-.06-.1-.22-.16-.46-.28z"/></svg>
-      Falar no WhatsApp agora
+      <svg width="19" height="19" viewBox="0 0 24 24" fill="#fff"><path d="M12 2C6.48 2 2 6.48 2 12c0 1.85.5 3.58 1.36 5.07L2 22l5.06-1.33A9.94 9.94 0 0 0 12 22c5.52 0 10-4.48 10-10S17.52 2 12 2zm0 18c-1.6 0-3.1-.44-4.38-1.2l-.31-.19-3 .79.8-2.92-.2-.3A7.94 7.94 0 0 1 4 12c0-4.41 3.59-8 8-8s8 3.59 8 8-3.59 8-8 8zm4.4-5.6c-.24-.12-1.42-.7-1.64-.78-.22-.08-.38-.12-.54.12-.16.24-.62.78-.76.94-.14.16-.28.18-.52.06-.24-.12-1.02-.38-1.94-1.2-.72-.64-1.2-1.44-1.34-1.68-.14-.24-.02-.37.1-.49.11-.11.24-.28.36-.42.12-.14.16-.24.24-.4.08-.16.04-.3-.02-.42-.06-.12-.54-1.3-.74-1.78-.2-.47-.4-.4-.54-.41h-.46c-.16 0-.42.06-.64.3-.22.24-.84.82-.84 2s.86 2.32.98 2.48c.12.16 1.7 2.6 4.12 3.64.58.25 1.03.4 1.38.51.58.18 1.11.16 1.53.1.47-.07 1.42-.58 1.62-1.14.2-.56.2-1.04.14-1.14-.06-.1-.22-.16-.46-.28z"/></svg>
+      Falar com um especialista
     </a>
   </div>
 </section>
 
 <footer>
   <div class="wrap">
-    <div class="fbrand">MZ CryptoHub</div>
-    <div>Maputo, Moçambique · Atendimento online e presencial</div>
-    <p class="disclaimer">MZ CryptoHub é um serviço de câmbio P2P independente e não é afiliado à Tether Operations Limited, à Trust Wallet ou a qualquer outra emissora de criptomoedas ou carteira digital. Os activos digitais estão sujeitos a volatilidade e risco de mercado. Confirma sempre a cotação e os dados da transacção directamente no WhatsApp antes de efectuares qualquer pagamento.</p>
+    <div class="fbrand">[Nome da Empresa]</div>
+    <div>Soluções para comércio e pagamentos internacionais.</div>
+    <p class="disclaimer">As informações apresentadas neste sítio têm carácter informativo. As condições de cada operação, incluindo prazos e taxas aplicáveis, são confirmadas directamente com a nossa equipa antes de qualquer pagamento.</p>
   </div>
 </footer>
 
@@ -625,7 +491,7 @@ src="https://www.facebook.com/tr?id=1423093693102127&ev=PageView&noscript=1"
 <div class="mobile-bar">
   <a class="btn btn-primary" href="https://wa.me/message/GKGANDMQPKHEF1" target="_blank" rel="noopener">
     <svg width="18" height="18" viewBox="0 0 24 24" fill="#fff"><path d="M12 2C6.48 2 2 6.48 2 12c0 1.85.5 3.58 1.36 5.07L2 22l5.06-1.33A9.94 9.94 0 0 0 12 22c5.52 0 10-4.48 10-10S17.52 2 12 2zm0 18c-1.6 0-3.1-.44-4.38-1.2l-.31-.19-3 .79.8-2.92-.2-.3A7.94 7.94 0 0 1 4 12c0-4.41 3.59-8 8-8s8 3.59 8 8-3.59 8-8 8zm4.4-5.6c-.24-.12-1.42-.7-1.64-.78-.22-.08-.38-.12-.54.12-.16.24-.62.78-.76.94-.14.16-.28.18-.52.06-.24-.12-1.02-.38-1.94-1.2-.72-.64-1.2-1.44-1.34-1.68-.14-.24-.02-.37.1-.49.11-.11.24-.28.36-.42.12-.14.16-.24.24-.4.08-.16.04-.3-.02-.42-.06-.12-.54-1.3-.74-1.78-.2-.47-.4-.4-.54-.41h-.46c-.16 0-.42.06-.64.3-.22.24-.84.82-.84 2s.86 2.32.98 2.48c.12.16 1.7 2.6 4.12 3.64.58.25 1.03.4 1.38.51.58.18 1.11.16 1.53.1.47-.07 1.42-.58 1.62-1.14.2-.56.2-1.04.14-1.14-.06-.1-.22-.16-.46-.28z"/></svg>
-    Consultar cotação no WhatsApp
+    Falar com um especialista
   </a>
 </div>
 
